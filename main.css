@@ -22,15 +22,8 @@
   left: 50%;
 }
 
-.message-form-icon-holder {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: -55px;
-  margin: auto;
-}
-
-.message-form__icon {
+.message-form:before {
+  content: '';
   background-color: #fff;
   background-image: url('images/letter.png');
   background-repeat: no-repeat;
@@ -39,6 +32,10 @@
   border-radius: 50%;
   width: 100px;
   height: 100px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -55px;
   margin: auto;
 }
 
